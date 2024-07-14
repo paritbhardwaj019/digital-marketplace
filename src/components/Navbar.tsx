@@ -5,7 +5,7 @@ import NavItems from "./NavItems";
 
 export default function Navbar() {
   return (
-    <div className="bg-white sticky z-50 top-0 inset-x-0 h-16 w-full">
+    <div className="bg-white sticky top-0 inset-x-0 h-16 w-full z-[9999999999999999]">
       <header className="relative bg-white">
         <div className="border-b border-gray-200">
           <MaxWidthWrapper>
